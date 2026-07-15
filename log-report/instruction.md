@@ -10,5 +10,3 @@ report to `/app/report.json`. Do not modify `/app/access.log`.
 3. `top_path` (string): the request path that appears in the most requests, taken from
    the request line (for example, `"GET /index.html HTTP/1.1"` has the path
    `/index.html`). Exactly one path is the most frequent in this log.
-
-You have 120 seconds to complete this task. Do not cheat by using online solutions or hints specific to this task.
