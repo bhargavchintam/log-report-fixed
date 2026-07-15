@@ -1,6 +1,4 @@
 #!/bin/bash
-# pytest is baked into the environment image (environment/Dockerfile).
-# Always exit 0; the pass/fail result is written to /logs/verifier/reward.txt.
 mkdir -p /logs/verifier
 
 pytest --ctrf /logs/verifier/ctrf.json /tests/test_outputs.py -rA

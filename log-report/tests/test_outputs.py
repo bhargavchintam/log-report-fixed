@@ -5,8 +5,6 @@ import pytest
 
 REPORT = Path("/app/report.json")
 
-# Ground truth for the six-line access.log baked into the image. Computed by hand from
-# the fixture and hardcoded here so the check can't be gamed by editing /app/access.log.
 EXPECTED = {"total_requests": 6, "unique_ips": 3, "top_path": "/index.html"}
 
 
